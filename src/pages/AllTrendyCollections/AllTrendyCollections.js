@@ -10,14 +10,14 @@ const AllTrendyCollections = () => {
         {" "}
         <Banner
           className="object-cover w-full h-full"
-          src="assets/images/banner3.png"
+          src="./assets/images/banner3.png"
           label=" banner"
         />
       </div>
       <div className="flex md:flex-row flex-col justify-center  mx-auto md:px-0 px-5 md:space-x-8 items-center mt-[4rem]   md:max-w-[1440px] ">
         <div className="bg-[#CCCEA7] flex flex-col justify-center items-center p-10 w-full md:w-[548px] h-[652px]">
           <img
-            src="assets/images/diamond.png"
+            src="./assets/images/diamond.png"
             className="w-[172px] h-[172px]"
           />
           <h2 className="logo text-[36px] mt-[1rem] text-primary font-semibold leading-normal cursor-pointer">
@@ -35,7 +35,7 @@ const AllTrendyCollections = () => {
         </div>
         <div className="bg-[#D6BEBE] md:mt-0 mt-[1rem] flex flex-col justify-center items-center p-10 w-full md:w-[548px] h-[652px]">
           <img
-            src="assets/images/discount.png"
+            src="./assets/images/discount.png"
             className="w-[172px] h-[172px]"
           />
           <h2 className="logo text-[36px] mt-[1rem] text-primary font-semibold leading-normal cursor-pointer">

@@ -80,7 +80,7 @@ const index = () => {
     return <div className="font-semibold text-blue">Product not found</div>;
   }
   return (
-    <div className="flex justify-center items-center mt-[4rem]">
+    <div className="flex justify-center items-center mt-[14rem]">
       <div className="flex justify-center items-center mx-auto md:max-w-[1440px] w-full flex-col">
         <img
           src={selectedProduct.imageSrc}

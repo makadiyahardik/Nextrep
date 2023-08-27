@@ -16,20 +16,20 @@ const ProductCard = ({ item, key ,router,productId}) => {
           <div className="flex justify-between items-center text-center mx-auto space-x-8">
             <div>
               <img
-                src="assets/images/cart.svg"
+                src="./assets/images/cart.svg"
                 className="h-[32px] w-[32px]  "
                 loading="lazy" 
               />
             </div>
             <div>
               <img
-                src="assets/images/heart.svg"
+                src="./assets/images/heart.svg"
                 className="h-[32px] w-[32px]  "
               />
             </div>
             <div>
               <img
-                src="assets/images/share.svg"
+                src="./assets/images/share.svg"
                 className="h-[32px] w-[32px]  "
               />
             </div>

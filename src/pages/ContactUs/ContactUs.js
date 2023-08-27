@@ -13,7 +13,7 @@ const ContactUs = () => {
             <div className="flex flex-col justify-start items-center text-center md:max-w-[400px]">
               <div className="m">
                 <img
-                  src="assets/images/7day.png"
+                  src="./assets/images/7day.png"
                   className="h-[88px] w-[88px]"
                 />
               </div>
@@ -27,7 +27,7 @@ const ContactUs = () => {
             <div className="flex flex-col justify-start items-center text-center md:max-w-[400px]">
               <div className="m">
                 <img
-                  src="assets/images/quality.png"
+                  src="./assets/images/quality.png"
                   className="h-[88px] w-[88px]"
                 />
               </div>
@@ -41,7 +41,7 @@ const ContactUs = () => {
             <div className="flex flex-col justify-start items-center text-center md:max-w-[400px]">
               <div className="m">
                 <img
-                  src="assets/images/safe.png"
+                  src="./assets/images/safe.png"
                   className="h-[88px] w-[88px]"
                 />
               </div>
@@ -55,7 +55,7 @@ const ContactUs = () => {
             <div className="flex flex-col justify-start items-center text-center md:max-w-[400px]">
               <div className="m">
                 <img
-                  src="assets/images/helpline.png"
+                  src="./assets/images/helpline.png"
                   className="h-[88px] w-[88px]"
                 />
               </div>
@@ -103,13 +103,13 @@ const ContactUs = () => {
           </div>
           <div className="absolute right-0 top-0  lg:block hidden">
             <img
-              src="assets/images/RightEllipse.svg "
+              src="./assets/images/RightEllipse.svg "
               className="h-[380px] w-[300px]"
             />
           </div>
           <div className="absolute left-0 top-0  lg:block hidden">
             <img
-              src="assets/images/LeftEllipse.svg "
+              src="./assets/images/LeftEllipse.svg "
               className="h-[380px] w-[300px]"
             />
           </div>

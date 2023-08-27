@@ -30,7 +30,7 @@ function CatogerySlider() {
             <div className="flex flex-col items-center justify-center">
             <div className="rounded-full  md:max-w-[170px] md:max-h-[170px] bg-[#F1DBE9]">
               <img
-                src="./assets/images/tshirt.png"
+                src="././assets/images/tshirt.png"
                 className="w-[170px] h-[170px]"
                 loading="lazy" 
               />
@@ -49,7 +49,7 @@ function CatogerySlider() {
           <div className="flex flex-col items-center justify-center">
             <div className="rounded-full md:max-w-[170px] md:max-h-[170px] bg-[#DDD3EB]">
               <img
-                src="./assets/images/WW.png"
+                src="././assets/images/WW.png"
                 className="w-[170px] h-[170px]"
                 loading="lazy" 
               />
@@ -66,7 +66,7 @@ function CatogerySlider() {
             <div className="flex flex-col items-center justify-center">
             <div className="rounded-full md:max-w-[170px] md:max-h-[170px] bg-[#D3EAEB]">
               <img
-                src="./assets/images/wc.png"
+                src="././assets/images/wc.png"
                 className="w-[170px] h-[170px]"
                 loading="lazy" 
               />
@@ -83,7 +83,7 @@ function CatogerySlider() {
             <div className="flex flex-col items-center justify-center">
             <div className="rounded-full md:max-w-[170px] md:max-h-[170px] bg-[#EFF1D9]">
               <img
-                src="./assets/images/ht.png"
+                src="././assets/images/ht.png"
                 className="w-[170px] h-[170px]"
                 loading="lazy" 
               />
@@ -99,7 +99,7 @@ function CatogerySlider() {
             <div className="flex flex-col items-center justify-center">
             <div className="rounded-full md:max-w-[170px] md:max-h-[170px] bg-[#F1DADB]">
               <img
-                src="./assets/images/pnt.png"
+                src="././assets/images/pnt.png"
                 className="w-[170px] h-[170px]"
                 loading="lazy" 
               />
@@ -115,7 +115,7 @@ function CatogerySlider() {
             <div className="flex flex-col items-center justify-center">
             <div className="rounded-full md:max-w-[170px] md:max-h-[170px] bg-[#D9F1DE]">
               <img
-                src="./assets/images/fst.png"
+                src="././assets/images/fst.png"
                 className="w-[170px] h-[170px]"
                 loading="lazy" 
               />

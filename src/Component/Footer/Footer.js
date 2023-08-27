@@ -24,7 +24,7 @@ function Footer() {
                       target="_blank"
                       rel="noopener noreferrer">
                       <img
-                        src="assets/images/fb.png"
+                        src="./assets/images/fb.png"
                         className="w-[50px] h-auto"
                         alt="Instagram"
                       />
@@ -34,7 +34,7 @@ function Footer() {
                       target="_blank"
                       rel="noopener noreferrer">
                       <img
-                        src="assets/images/linkie.png"
+                        src="./assets/images/linkie.png"
                         className="w-[50px] h-auto"
                         alt="LinkedIn"
                       />
@@ -44,7 +44,7 @@ function Footer() {
                       target="_blank"
                       rel="noopener noreferrer">
                       <img
-                        src="assets/images/tweet.png"
+                        src="./assets/images/tweet.png"
                         className="w-[50px] h-auto"
                         alt="Facebook"
                       />
@@ -54,7 +54,7 @@ function Footer() {
                       target="_blank"
                       rel="noopener noreferrer">
                       <img
-                        src="assets/images/ig.png"
+                        src="./assets/images/ig.png"
                         className="w-[50px] h-auto"
                         alt="Twitter"
                       />
@@ -64,7 +64,7 @@ function Footer() {
                       target="_blank"
                       rel="noopener noreferrer">
                       <img
-                        src="assets/images/pin.png"
+                        src="./assets/images/pin.png"
                         className="w-[50px] h-auto"
                         alt="Twitter"
                       />
@@ -179,7 +179,7 @@ function Footer() {
 
               <div className="flex  items-start">
                 <img
-                  src="./assets/images/location.png"
+                  src="././assets/images/location.png"
                   alt=""
                   className="h-5 w-5"
                 />
@@ -189,7 +189,7 @@ function Footer() {
                 </p>
               </div>
               <div className="flex  items-start mt-[1rem]">
-                <img src="./assets/images/cll.png" alt="" className="h-5 w-5" />
+                <img src="././assets/images/cll.png" alt="" className="h-5 w-5" />
                 <a href="tel:1234567890" className="text-primary ml-3 text-[14px] leading-[28px]">
   Call Us: 1234567890
 </a>
@@ -197,7 +197,7 @@ function Footer() {
               </div>
               <div className="flex  items-start mt-[1rem]">
                 <img
-                  src="./assets/images/email.png"
+                  src="././assets/images/email.png"
                   alt=""
                   className="h-5 w-5"
                 />

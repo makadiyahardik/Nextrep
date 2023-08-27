@@ -9,7 +9,7 @@ const Catogery = () => {
           <div className="flex flex-col items-center justify-center">
             <div className="rounded-full  md:max-w-[170px] md:max-h-[170px] bg-[#F1DBE9]">
               <img
-                src="assets/images/tshirt.png"
+                src="./assets/images/tshirt.png"
                 className="w-[170px] h-[170px]"
                 loading="lazy" 
               />
@@ -25,7 +25,7 @@ const Catogery = () => {
           <div className="flex flex-col items-center justify-center">
             <div className="rounded-full md:max-w-[170px] md:max-h-[170px] bg-[#DDD3EB]">
               <img
-                src="assets/images/WW.png"
+                src="./assets/images/WW.png"
                 className="w-[170px] h-[170px]"
                 loading="lazy" 
               />
@@ -40,7 +40,7 @@ const Catogery = () => {
           <div className="flex flex-col items-center justify-center">
             <div className="rounded-full md:max-w-[170px] md:max-h-[170px] bg-[#D3EAEB]">
               <img
-                src="assets/images/wc.png"
+                src="./assets/images/wc.png"
                 className="w-[170px] h-[170px]"
                 loading="lazy" 
               />
@@ -55,7 +55,7 @@ const Catogery = () => {
           <div className="flex flex-col items-center justify-center">
             <div className="rounded-full md:max-w-[170px] md:max-h-[170px] bg-[#EFF1D9]">
               <img
-                src="assets/images/ht.png"
+                src="./assets/images/ht.png"
                 className="w-[170px] h-[170px]"
                 loading="lazy" 
               />
@@ -70,7 +70,7 @@ const Catogery = () => {
           <div className="flex flex-col items-center justify-center">
             <div className="rounded-full md:max-w-[170px] md:max-h-[170px] bg-[#F1DADB]">
               <img
-                src="assets/images/pnt.png"
+                src="./assets/images/pnt.png"
                 className="w-[170px] h-[170px]"
                 loading="lazy" 
               />
@@ -85,7 +85,7 @@ const Catogery = () => {
           <div className="flex flex-col items-center justify-center">
             <div className="rounded-full md:max-w-[170px] md:max-h-[170px] bg-[#D9F1DE]">
               <img
-                src="assets/images/fst.png"
+                src="./assets/images/fst.png"
                 className="w-[170px] h-[170px]"
                 loading="lazy" 
               />
@@ -108,14 +108,14 @@ const Catogery = () => {
       <div className="flex md:justify-between md:flex-row flex-col md:px-0 px-5 md:space-x-8 items-center mt-[4rem]   md:max-w-[1440px] mx-auto ">
         <div className="">
               <img
-                src="assets/images/baggy.png"
+                src="./assets/images/baggy.png"
                 className="w-full h-full"
                 loading="lazy" 
               />
             </div>
             <div className="md:mt-0 mt-[20px]">
               <img
-                src="assets/images/winter.png"
+                src="./assets/images/winter.png"
                 className="w-full h-full"
                 loading="lazy" 
               />
@@ -124,21 +124,21 @@ const Catogery = () => {
         <div className="flex md:justify-between md:flex-row flex-col md:px-0 px-5 md:space-x-[20px] space-y-[20px] md:space-y-0 items-center mt-[1rem]   md:max-w-[1440px] mx-auto ">
         <div className="">
               <img
-                src="assets/images/women.png"
+                src="./assets/images/women.png"
                 className="w-full h-full"
                 loading="lazy" 
               />
             </div>
             <div className="">
               <img
-                src="assets/images/bestdeal.png"
+                src="./assets/images/bestdeal.png"
                 className="w-full h-full"
                 loading="lazy" 
               />
             </div>
             <div className="">
               <img
-                src="assets/images/trendy.png"
+                src="./assets/images/trendy.png"
                 className="w-full h-full"
                 loading="lazy" 
               />

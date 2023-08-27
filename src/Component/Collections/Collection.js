@@ -10,7 +10,7 @@ const Collection = () => {
         <div className="product-image relative   cursor-pointer">
           {" "}
           <div className="flex  justify-start items-start">
-            <img src="assets/images/ht.png" className="h-[50vh] md:w-[18.5rem]   w-full " />
+            <img src="./assets/images/ht.png" className="h-[50vh] md:w-[18.5rem]   w-full " />
           </div>
        
         </div>
@@ -32,7 +32,7 @@ const Collection = () => {
       >
         <div className="product-image relative   cursor-pointer">
           <div className="flex ">
-            <img src="assets/images/st2.png" className="h-[50vh]   md:w-[18.5rem]   w-full  " />
+            <img src="./assets/images/st2.png" className="h-[50vh]   md:w-[18.5rem]   w-full  " />
           </div>
        
         </div>
@@ -54,7 +54,7 @@ const Collection = () => {
         <div className="product-image relative   cursor-pointer">
           {" "}
           <div className="flex  justify-start items-start">
-            <img src="assets/images/rnt.png" className="h-[50vh]  md:w-[18.5rem]   w-full  " />
+            <img src="./assets/images/rnt.png" className="h-[50vh]  md:w-[18.5rem]   w-full  " />
           </div>
        
         </div>
@@ -81,7 +81,7 @@ const Collection = () => {
         <div className="product-image relative   cursor-pointer">
           {" "}
           <div className="flex  justify-start items-start">
-            <img src="assets/images/pt.png" className="h-[50vh] md:w-[18.5rem]   w-full " />
+            <img src="./assets/images/pt.png" className="h-[50vh] md:w-[18.5rem]   w-full " />
           </div>
           
         </div>
@@ -104,7 +104,7 @@ const Collection = () => {
         <div className="product-image relative   cursor-pointer">
           {" "}
           <div className="flex  justify-start items-start">
-            <img src="assets/images/ot.png" className="h-[50vh] w-[18.5rem]    " />
+            <img src="./assets/images/ot.png" className="h-[50vh] w-[18.5rem]    " />
           </div>
          
         </div>
@@ -127,7 +127,7 @@ const Collection = () => {
         <div className="product-image relative   cursor-pointer">
           {" "}
           <div className="flex  justify-start items-start">
-            <img src="assets/images/hst.png" className="h-[50vh]   w-full md:w-[18.5rem]   w-full " />
+            <img src="./assets/images/hst.png" className="h-[50vh]   w-full md:w-[18.5rem]   w-full " />
           </div>
          
         </div>

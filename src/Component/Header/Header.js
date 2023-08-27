@@ -45,7 +45,7 @@ function Header(props) {
             <div className="text-[#FFF] flex items-center">
               <div className="flex items-center">
                 <img
-                  src="/assets/images/call.png"
+                  src="/./assets/images/call.png"
                   className="md:h-[2rem] h-[1rem] w-[1rem] md:w-[2rem]  md:mr-0 mr-[1px]"
                 />
                 <p className="font-medium text-[14px] text-[#FFF] leading-normal">
@@ -62,14 +62,14 @@ function Header(props) {
           <div className="flex  justify-between  md:items-center  ">
             <div className="flex md:hidden justify-start items-start">
               <img
-                src="assets/images/hamburgermenu.png"
+                src="./assets/images/hamburgermenu.png"
                 className="h-[32px] w-[32px]  "
               />
             </div>
             <div className=" md:flex hidden ">
               <div className="  cursor-pointer  ">
                 <img
-                  src="assets/images/hamburgermenu.png"
+                  src="./assets/images/hamburgermenu.png"
                   className="h-[24px] w-[24px]  "
                 />
               </div>
@@ -82,22 +82,22 @@ function Header(props) {
             <div className=" flex justify-between items-center gap-6">
             <div className="  cursor-pointer  ">
                 <img
-                  src="assets/images/search.png"
+                  src="./assets/images/search.png"
                   className="h-[24px] w-[24px]  "
                 />
               </div> <div className="  cursor-pointer  ">
                 <img
-                  src="assets/images/save.png"
+                  src="./assets/images/save.png"
                   className="h-[24px] w-[24px]  "
                 />
               </div> <div className="  cursor-pointer  ">
                 <img
-                  src="assets/images/bag.png"
+                  src="./assets/images/bag.png"
                   className="h-[24px] w-[24px]  "
                 />
               </div> <div className="  cursor-pointer  ">
                 <img
-                  src="assets/images/person.png"
+                  src="./assets/images/person.png"
                   className="h-[24px] w-[24px]  "
                 />
               </div>
