@@ -3,7 +3,7 @@ import { Inter } from "next/font/google";
 import React, { useState } from "react";
 import Header from "@/Component/Header/Header";
 import Footer from "@/Component/Footer/Footer";
-import Layout from "@/Component/Layout/Layout";
+import Layout from "@/Layout/Layout";
 import Home from "./Home/Home/Home";
 import Catogery from "@/Component/Catogery/Catogery";
 import TrendingTshirts from "./TrendingTshirts/TrendingTshirts";
@@ -17,7 +17,6 @@ import ContactUs from "./ContactUs/ContactUs";
 export default function index() {
   return (
     <React.Fragment>
-      <Layout>
         <Home/>
         <Catogery/>
         <TrendingTshirts/>
@@ -26,7 +25,6 @@ export default function index() {
 <BestSellingProducts/>
 <AllTrendyCollections/>
 <ContactUs/>
-      </Layout>
     
     </React.Fragment>
   );

@@ -6,76 +6,39 @@ import React from "react";
 const BestSellingProducts = () => {
   const products = [
     {
-      id: "1",
-      imageSrc: "./assets/images/t1.png",
+      id: "1b9d6bcd-bbfd-4b2d-9b5d-ab8dfbbd4bed",
+      imageSrc: "assets/images/t1.png",
       title: "Men Henley Neck Full Sleeve Red Wine",
       price: "399",
       discount: "1900",
       sizes: ["S", "M", "L", "XL", "XXL"],
     },
     {
-      id: "2",
-      imageSrc: "./assets/images/t2.png",
+      id: "1b9d6bcd-bbfd-4b2d-9b5d-ab8dfbbd4beb",
+      imageSrc: "assets/images/t2.png",
       title: "Men  Neck Full Sleeve Red Wine",
       price: "499",
       discount: "1700",
       sizes: ["S", "M", "XL", "XXL"],
     },
     {
-      id: "3",
-      imageSrc: "./assets/images/t3.png",
+      id: "1b9d6bcd-bbfd-4b2d-9b5d-ab8dfbbd3bed",
+      imageSrc: "assets/images/t3.png",
       title: "Men  Neck Full Sleeve Red Wine",
       price: "199",
       discount: "1000",
       sizes: ["S", "M", "L", "XL"],
     },
     {
-      id: "4",
-      imageSrc: "./assets/images/t4.png",
+      id: "1b9d6bcd-bbfd-3b2d-9b5d-ab8dfbbd4bed",
+      imageSrc: "assets/images/t4.png",
       title: "Men  Neck Full Sleeve Red Wine",
       price: "699",
       discount: "2900",
       sizes: ["S", "M", "L", "XL", "XXL"],
     },
   ];
-  const Collections = [
-    {
-      id: "1",
-      imageSrc: "./assets/images/ht.png",
-      heading: "Streetwear Collections",
-      bgColor: "[#06B8A6]",
-    },
-    {
-      id: "2",
-      imageSrc: "./assets/images/st2.png",
-      heading: "Striped T-Shirts",
-      bgColor: "[#80E8FF]",
-    },
-    {
-      id: "3  ",
-      imageSrc: "./assets/images/rnt.png",
-      heading: "Round Neck T-Shirts",
-      bgColor: "[#DC493A]",
-    },
-    {
-      id: "4",
-      imageSrc: "./assets/images/pt.png",
-      heading: "Striped T-Shirts",
-      bgColor: "[#D7B2FF]",
-    },
-    {
-      id: "5",
-      imageSrc: "./assets/images/ot.png",
-      heading: "Printed T-Shirts",
-      bgColor: "[#F0BC8C]",
-    },
-    {
-      id: "6",
-      imageSrc: "./assets/images/hst.png",
-      heading: "Half Sleeves T-Shirts",
-      bgColor: "[#4392F1]",
-    },
-  ];
+
   return (
     <div className="w-full mt-[4rem]">
       <div className="flex justify-center items-center mx-auto text-center">

@@ -1,6 +1,6 @@
 import React from "react";
-
 const ProductCard = ({ item, key }) => {
+
   return (
     <div
       className="flex flex-col justify-center items-center  relative"
@@ -8,24 +8,25 @@ const ProductCard = ({ item, key }) => {
     >
       <div className="product-image relative overflow-hidden group cursor-pointer">
         {" "}
-        <img src={item.imageSrc} className="h-[50vh] md:w-[16.5rem]  w-full " />
-        <div className="absolute w-full h-full  inset-0 bg-black bg-opacity-50 backdrop-blur-md  flex justify-center items-center -bottom-10 group-hover:bottom-0 opacity-0 group-hover:opacity-100 transition-all duration-300  flex">
+        <img src={item.imageSrc} className="h-[50vh] md:w-[16.5rem]  w-full cursor-pointer"  />
+        <div className="absolute w-full h-full   bg-black bg-opacity-50 backdrop-blur-md  flex justify-center items-center -bottom-10 group-hover:bottom-0 opacity-0 group-hover:opacity-100 transition-all duration-300  flex">
           <div className="flex justify-between items-center text-center mx-auto space-x-8">
             <div>
               <img
-                src="./assets/images/cart.svg"
+                src="assets/images/cart.svg"
+                className="h-[32px] w-[32px]  "
+                loading="lazy" 
+              />
+            </div>
+            <div>
+              <img
+                src="assets/images/heart.svg"
                 className="h-[32px] w-[32px]  "
               />
             </div>
             <div>
               <img
-                src="./assets/images/heart.svg"
-                className="h-[32px] w-[32px]  "
-              />
-            </div>
-            <div>
-              <img
-                src="./assets/images/share.svg"
+                src="assets/images/share.svg"
                 className="h-[32px] w-[32px]  "
               />
             </div>

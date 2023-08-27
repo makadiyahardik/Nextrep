@@ -5,32 +5,32 @@ import React from "react";
 const FeaturedProducts = () => {
   const products = [
     {
-      id: "1",
-      imageSrc: "./assets/images/t1.png",
+      id: "1b9d6bcd-bbfd-4b2d-9b5d-ab2dfbbd4bed",
+      imageSrc: "assets/images/t1.png",
       title: "Men Henley Neck Full Sleeve Red Wine",
       price: "399",
       discount: "1900",
       sizes: ["S", "M", "L", "XL", "XXL"],
     },
     {
-      id: "2",
-      imageSrc: "./assets/images/t2.png",
+      id: "1b9d6bcd-bbfd-4b2d-9b5d-ab8dfebd4bed",
+      imageSrc: "assets/images/t2.png",
       title: "Men  Neck Full Sleeve Red Wine",
       price: "499",
       discount: "1700",
       sizes: ["S", "M", "XL", "XXL"],
     },
     {
-      id: "3",
-      imageSrc: "./assets/images/t3.png",
+      id: "1b9d6bcd-abfd-4b2d-9b5d-ab8dfbbd4bed",
+      imageSrc: "assets/images/t3.png",
       title: "Men  Neck Full Sleeve Red Wine",
       price: "199",
       discount: "1000",
       sizes: ["S", "M", "L", "XL"],
     },
     {
-      id: "4",
-      imageSrc: "./assets/images/t4.png",
+      id: "1b9d6bbd-bbfd-4b2d-9b5d-ab8dfbbd4bed",
+      imageSrc: "assets/images/t4.png",
       title: "Men  Neck Full Sleeve Red Wine",
       price: "699",
       discount: "2900",
@@ -69,7 +69,7 @@ const FeaturedProducts = () => {
         {" "}
         <Banner
           className="object-cover w-full h-full"
-          src="./assets/images/banner2.png"
+          src="assets/images/banner2.png"
           label="product banner"
         />
       </div>

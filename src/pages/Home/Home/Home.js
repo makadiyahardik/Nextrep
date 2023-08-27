@@ -10,7 +10,7 @@ const Home = () => {
         {" "}
         <Banner
           className="object-cover w-full h-full"
-          src="./assets/images/herobanner.png"
+          src="assets/images/herobanner.png"
           label="hero banner"
         />
       </div>

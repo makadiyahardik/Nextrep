@@ -5,7 +5,7 @@ import React from "react";
 const NewProducts = () => {
   const products = [
     {
-      id: "1",
+      id: "1b9d6bcd-bbfd-4b2d-9a5d-ab8dfbbd4bed",
       imageSrc: "./assets/images/t1.png",
       title: "Men Henley Neck Full Sleeve Red Wine",
       price: "399",
@@ -13,7 +13,7 @@ const NewProducts = () => {
       sizes: ["S", "M", "L", "XL", "XXL"],
     },
     {
-      id: "2",
+      id: "1b9d6bcd-bbfd-4b2d-9z5d-ab8dfbbd4bed",
       imageSrc: "./assets/images/t2.png",
       title: "Men  Neck Full Sleeve Red Wine",
       price: "499",
@@ -21,7 +21,7 @@ const NewProducts = () => {
       sizes: ["S", "M", "XL", "XXL"],
     },
     {
-      id: "3",
+      id: "1b9d6bcd-bvfd-4b2d-9b5d-ab8dfbbd4bed",
       imageSrc: "./assets/images/t3.png",
       title: "Men  Neck Full Sleeve Red Wine",
       price: "199",
@@ -29,7 +29,7 @@ const NewProducts = () => {
       sizes: ["S", "M", "L", "XL"],
     },
     {
-      id: "4",
+      id: "1b9d6bcd-bbfd-4b2d-9b5d-ax8dfbbd4bed",
       imageSrc: "./assets/images/t4.png",
       title: "Men  Neck Full Sleeve Red Wine",
       price: "699",

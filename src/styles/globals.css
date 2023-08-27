@@ -12,9 +12,3 @@ body{
 .logo{
     font-family: 'Playfair Display', serif;
 }
-.ellipse{
-    width: 377.346px;
-height: 341.464px;
-transform: rotate(-60.628deg);
-background-color: rgba(255, 255, 255, 0.16);;
-}

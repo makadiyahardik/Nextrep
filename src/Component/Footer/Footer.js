@@ -24,7 +24,7 @@ function Footer() {
                       target="_blank"
                       rel="noopener noreferrer">
                       <img
-                        src="./assets/images/fb.png"
+                        src="assets/images/fb.png"
                         className="w-[50px] h-auto"
                         alt="Instagram"
                       />
@@ -34,7 +34,7 @@ function Footer() {
                       target="_blank"
                       rel="noopener noreferrer">
                       <img
-                        src="./assets/images/linkie.png"
+                        src="assets/images/linkie.png"
                         className="w-[50px] h-auto"
                         alt="LinkedIn"
                       />
@@ -44,7 +44,7 @@ function Footer() {
                       target="_blank"
                       rel="noopener noreferrer">
                       <img
-                        src="./assets/images/tweet.png"
+                        src="assets/images/tweet.png"
                         className="w-[50px] h-auto"
                         alt="Facebook"
                       />
@@ -54,7 +54,7 @@ function Footer() {
                       target="_blank"
                       rel="noopener noreferrer">
                       <img
-                        src="./assets/images/ig.png"
+                        src="assets/images/ig.png"
                         className="w-[50px] h-auto"
                         alt="Twitter"
                       />
@@ -64,7 +64,7 @@ function Footer() {
                       target="_blank"
                       rel="noopener noreferrer">
                       <img
-                        src="./assets/images/pin.png"
+                        src="assets/images/pin.png"
                         className="w-[50px] h-auto"
                         alt="Twitter"
                       />
@@ -156,8 +156,19 @@ function Footer() {
                   {" "}
                   Cancellation & Refund Policy
                 </li>
-                <li className="my-3 text-[14px] font-medium text-primary leading-[34px]">
+                {/* <li className="my-3 text-[14px] font-medium text-primary leading-[34px]">
                   Contact Us
+                </li> */}
+                <li className="my-3 text-[14px] font-medium text-primary leading-[34px] cursor-pointer">
+                  <LinkScroll
+                    to="Contact"
+                    spy={true}
+                    smooth={true}
+                    duration={1000}
+                    offset={100}
+                  >
+                          Contact Us
+                  </LinkScroll>
                 </li>
               </ul>
             </div>
@@ -179,9 +190,10 @@ function Footer() {
               </div>
               <div className="flex  items-start mt-[1rem]">
                 <img src="./assets/images/cll.png" alt="" className="h-5 w-5" />
-                <p className="text-primary ml-3 text-[14px] leading-[28px]">
-                  Call Us: 1234567890
-                </p>
+                <a href="tel:1234567890" className="text-primary ml-3 text-[14px] leading-[28px]">
+  Call Us: 1234567890
+</a>
+
               </div>
               <div className="flex  items-start mt-[1rem]">
                 <img

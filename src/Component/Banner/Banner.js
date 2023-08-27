@@ -7,6 +7,7 @@ const Banner = ({src,className,label}) => {
               className={className}
               src={src}
               alt={label}
+              loading="lazy" 
           />
     </div>
   )
