@@ -8,7 +8,7 @@ const index = () => {
   const products = [
     {
       id: "1b9d6bcd-bbfd-4b2d-9b5d-ab8dfbbd4beq",
-      imageSrc: "assets/images/t1.png",
+      imageSrc: "./assets/images/t1.png",
       title: "Men Henley Neck Full Sleeve Red Wine",
       price: "399",
       discount: "1900",
@@ -16,7 +16,7 @@ const index = () => {
     },
     {
       id: "1b9d6bcd-bbfd-4b2d-9b5d-ab8dfbbd4bel",
-      imageSrc: "assets/images/t2.png",
+      imageSrc: "./assets/images/t2.png",
       title: "Men  Neck Full Sleeve Red Wine",
       price: "499",
       discount: "1700",
@@ -24,7 +24,7 @@ const index = () => {
     },
     {
       id: "1b9d6bcd-bbfd-4b2d-9b5d-ab8dfbbd4bep",
-      imageSrc: "assets/images/t3.png",
+      imageSrc: "./assets/images/t3.png",
       title: "Men  Neck Full Sleeve Red Wine",
       price: "199",
       discount: "1000",
@@ -32,7 +32,7 @@ const index = () => {
     },
     {
       id: "1b9d6bcd-bbfd-4b2d-9b5d-ab8dfbbd4bek",
-      imageSrc: "assets/images/t4.png",
+      imageSrc: "./assets/images/t4.png",
       title: "Men  Neck Full Sleeve Red Wine",
       price: "699",
       discount: "2900",
@@ -40,7 +40,7 @@ const index = () => {
     },
     {
       id: "1b9d6bcd-bbfd-4b2d-9b5d-ab8dfbbd4bei",
-      imageSrc: "assets/images/t1.png",
+      imageSrc: "./assets/images/t1.png",
       title: "Men  Neck Full Sleeve Red Wine",
       price: "1999",
       discount: "3900",
@@ -49,7 +49,7 @@ const index = () => {
 
     {
       id: "1b9d6bcd-bbfd-4b2d-9b5d-ab8dfbbd4beu",
-      imageSrc: "assets/images/t3.png",
+      imageSrc: "./assets/images/t3.png",
       title: "Men  Neck Full Sleeve Red Wine",
       price: "99",
       discount: "199",
@@ -57,7 +57,7 @@ const index = () => {
     },
     {
       id: "1b9d6bcd-bbfd-4b2d-9b5d-ab8dfbbd4bey",
-      imageSrc: "assets/images/t4.png",
+      imageSrc: "./assets/images/t4.png",
       title: "Men  Neck Full Sleeve Red Wine",
       price: "1111",
       discount: "1900",
@@ -65,7 +65,7 @@ const index = () => {
     },
     {
       id: "1b9d6bcd-bbfd-4b2d-9b5d-ab8dfbbd4bet",
-      imageSrc: "assets/images/t3.png",
+      imageSrc: "./assets/images/t3.png",
       title: "Men  Neck Full Sleeve Red Wine",
       price: "799",
       discount: "1499",
@@ -80,7 +80,7 @@ const index = () => {
     return <div className="font-semibold text-blue">Product not found</div>;
   }
   return (
-    <div className="flex justify-center items-center ">
+    <div className="flex justify-center items-center mt-[4rem]">
       <div className="flex justify-center items-center mx-auto md:max-w-[1440px] w-full flex-col">
         <img
           src={selectedProduct.imageSrc}
