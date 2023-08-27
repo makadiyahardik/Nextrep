@@ -10,10 +10,10 @@ module.exports = {
   ],
   theme: {
     colors: {
-      "primary-600": "#7F56D9",
+      "primary": "#1C1C1C",
       "primary-700": "#6941C6",
 
-      skyblue: "#399CC8",
+      darkOrange: "#770015",
       blue: "#612ADB",
       DarkSkyblue: "#3ECEF1",
       black: "#000000",

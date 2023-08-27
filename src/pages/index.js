@@ -1,34 +1,33 @@
-import Image from 'next/image'
-import { Inter } from 'next/font/google'
-import React, { useState } from 'react';
-import Header from '@/Component/Header/Header';
-import Footer from '@/Component/Footer/Footer';
+import Image from "next/image";
+import { Inter } from "next/font/google";
+import React, { useState } from "react";
+import Header from "@/Component/Header/Header";
+import Footer from "@/Component/Footer/Footer";
+import Layout from "@/Component/Layout/Layout";
+import Home from "./Home/Home/Home";
+import Catogery from "@/Component/Catogery/Catogery";
+import TrendingTshirts from "./TrendingTshirts/TrendingTshirts";
+import FeaturedProducts from "./FeaturedProducts/FeaturedProducts";
+import NewProducts from "./NewProducts/NewProducts";
+import BestSellingProducts from "./BestSellingProducts/BestSellingProducts";
+import AllTrendyCollections from "./AllTrendyCollections/AllTrendyCollections";
+import ContactUs from "./ContactUs/ContactUs";
 
-const inter = Inter({ subsets: ['latin'] })
 
 export default function index() {
-  const [isOpen, setIsOpen] = useState(false);
-  const [showNav, setShowNav] = useState(false);
-
-  const openModal = () => {
-    setIsOpen(true);
-    setShowNav(false);
-  };
-  const CloseModal = () => {
-    setIsOpen(false);
-  };
-  const onMoboClicks = () => {
-    setShowNav(!showNav);
-  };
   return (
-<React.Fragment>
-<Header  isOpen={isOpen}
-        openModal={openModal}
-        CloseModal={CloseModal}
-        showNav={showNav}
-        setShowNav={setShowNav}
-        onMoboClicks={onMoboClicks}/>
-        <Footer/>
-</React.Fragment>
-  )
+    <React.Fragment>
+      <Layout>
+        <Home/>
+        <Catogery/>
+        <TrendingTshirts/>
+        <FeaturedProducts/>
+        <NewProducts/>
+<BestSellingProducts/>
+<AllTrendyCollections/>
+<ContactUs/>
+      </Layout>
+    
+    </React.Fragment>
+  );
 }
