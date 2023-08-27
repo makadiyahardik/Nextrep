@@ -1,11 +1,14 @@
 import React from "react";
-const ProductCard = ({ item, key }) => {
-
+const ProductCard = ({ item, key ,router,productId}) => {
+  const handleImageClick = () => {
+    // Navigate to the product detail page using the router prop
+    router.push(`/ProductInfo/${productId}`);
+  };
   return (
     <div
-      className="flex flex-col justify-center items-center  relative"
+      className="flex flex-col justify-center items-center cursor-pointer  relative"
       key={key}
-    >
+      onClick={handleImageClick}  >
       <div className="product-image relative overflow-hidden group cursor-pointer">
         {" "}
         <img src={item.imageSrc} className="h-[50vh] md:w-[16.5rem]  w-full cursor-pointer"  />

@@ -1,12 +1,14 @@
 import Banner from "@/Component/Banner/Banner";
 import Collection from "@/Component/Collections/Collection";
 import ProductCard from "@/Component/ProductCard/ProductCard";
+import { useRouter } from "next/router";
 import React from "react";
 
 const BestSellingProducts = () => {
+  const router = useRouter()
   const products = [
     {
-      id: "1b9d6bcd-bbfd-4b2d-9b5d-ab8dfbbd4bed",
+      id: "1b9d6bcd-bbfd-4b2d-9b5d-ab8dfbbd4beq",
       imageSrc: "assets/images/t1.png",
       title: "Men Henley Neck Full Sleeve Red Wine",
       price: "399",
@@ -14,7 +16,7 @@ const BestSellingProducts = () => {
       sizes: ["S", "M", "L", "XL", "XXL"],
     },
     {
-      id: "1b9d6bcd-bbfd-4b2d-9b5d-ab8dfbbd4beb",
+      id: "1b9d6bcd-bbfd-4b2d-9b5d-ab8dfbbd4bel",
       imageSrc: "assets/images/t2.png",
       title: "Men  Neck Full Sleeve Red Wine",
       price: "499",
@@ -22,7 +24,7 @@ const BestSellingProducts = () => {
       sizes: ["S", "M", "XL", "XXL"],
     },
     {
-      id: "1b9d6bcd-bbfd-4b2d-9b5d-ab8dfbbd3bed",
+      id: "1b9d6bcd-bbfd-4b2d-9b5d-ab8dfbbd4bep",
       imageSrc: "assets/images/t3.png",
       title: "Men  Neck Full Sleeve Red Wine",
       price: "199",
@@ -30,15 +32,16 @@ const BestSellingProducts = () => {
       sizes: ["S", "M", "L", "XL"],
     },
     {
-      id: "1b9d6bcd-bbfd-3b2d-9b5d-ab8dfbbd4bed",
+      id: "1b9d6bcd-bbfd-4b2d-9b5d-ab8dfbbd4bek",
       imageSrc: "assets/images/t4.png",
       title: "Men  Neck Full Sleeve Red Wine",
       price: "699",
       discount: "2900",
       sizes: ["S", "M", "L", "XL", "XXL"],
     },
-  ];
+ 
 
+  ];
   return (
     <div className="w-full mt-[4rem]">
       <div className="flex justify-center items-center mx-auto text-center">
@@ -56,7 +59,7 @@ const BestSellingProducts = () => {
 
       <div className="w-full md:max-w-[1440px] grid md:grid-cols-4 sm:grid-cols-2  mx-auto  gap-x-2 items-center    md:gap-x-4 md:gap-y-12 my-8 gap-y-8">
         {products.map((item, idx) => {
-          return <ProductCard item={item} key={item.id} />;
+          return <ProductCard item={item} key={item.id} router={router} productId={item.id}/>;
         })}
       </div>
 
