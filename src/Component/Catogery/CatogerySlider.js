@@ -19,11 +19,11 @@ function CatogerySlider() {
               gap: "0rem",
               arrows: false,
               pagination: false,
-              // autoScroll: {
-              //   pauseOnHover: true,
-              //   pauseOnFocus: false,
-              //   speed: 2,
-              // },
+              autoScroll: {
+                pauseOnHover: true,
+                pauseOnFocus: false,
+                speed: 2,
+              },
             }}
             extensions={{ AutoScroll }}>
             <SplideSlide>
@@ -131,6 +131,7 @@ function CatogerySlider() {
           </Splide>
         </div>
       </div>
+       
     </div>
   );
 }

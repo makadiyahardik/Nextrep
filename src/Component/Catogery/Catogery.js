@@ -1,9 +1,9 @@
 import React from "react";
-// import CatogerySlider from "CatogerySlider";
+import CatogerySlider from "./CatogerySlider";
 
 const Catogery = () => {
   return (
-    <div className="w-full flex flex-col md:mt-[4rem]">
+    <div className="w-full flex relative flex-col md:mt-[4rem]">
       <div className=" mx-auto md:flex  md:max-w-[1440px] w-full  hidden relative items-start justify-center md:px-10 px-5">
         <div className="w-full flex md:flex-row mx-auto items-center md:space-x-4 justify-center flex-wrap gap-12 gap-y-5 my-5  ">
           <div className="flex flex-col items-center justify-center">
@@ -102,8 +102,8 @@ const Catogery = () => {
 
     
       </div>
-      <div className="w-full px-5 md:hidden flex">
-        {/* <CatogerySlider/> */}
+      <div className="">
+        <CatogerySlider/>
       </div>
       <div className="flex md:justify-between md:flex-row flex-col md:px-0 px-5 md:space-x-8 items-center mt-[4rem]   md:max-w-[1440px] mx-auto ">
         <div className="">
